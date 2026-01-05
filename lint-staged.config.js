@@ -1,8 +1,5 @@
 export default {
-  "apps/web/**/*.{js,jsx,ts,tsx}": [
-    "pnpm --filter web exec eslint --fix",
-    "prettier --write"
-  ],
+
   "apps/satu-login-landingpage/**/*.{js,jsx,ts,tsx}": [
     "pnpm --filter satu-login-landingpage exec eslint --fix",
     "prettier --write"
